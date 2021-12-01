@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATOS</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="slideshow">
+            <img id="image" src="../img/1.jpg" sizes="10" height="500" width="1900">
+            <button id="prev">&LeftArrow;</button>
+            <button id="next">&RightArrow;</button>
+            </div>
+            <script type="text/javascript" src="../js/codigo.js"></script>
+        </header>
+    </div>
+    <form>
+        <div class="jumbotron text-center">
+            <h1>Mi primera pagina con bootstrap</h1>
+            <h2>Registrar Datos</h2>
+            <ul class="nav navbar-nav">
+
+                <li class="active"><a href="#">Inicio</a></li>
+                <li class="active"><a href="#">Datos</a></li>
+                <li class="active"><a href="#">Ayuda</a></li>
+                <li class="active"><a href="#">Continuar</a></li>
+            </ul>
+
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Ingreso de Datos</h3>
+                    <p>Registrar</p>
+                    <p>Sus datos Principales</p>
+                    <a href="datos.html">Ir a Datos</a>
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>Completar Datos</h3>
+                    <p>Los datos deben ser...</p>
+                    <p>verificados e ingresados correctamente...</p>
+                    <a href="completar.html">Ir a completar Datos</a>
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>Seleccionar un enlace</h3>
+                    <p>Elegir una opcion ...</p>
+                    <p> para cotinuar...</p>
+                    <a href="seleccionar.html">Seleccionar Enlace</a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </form>
+    <hr>
+    <hr>
+    <div class="container">
+        <h2>REGISTRO DE DATOS</h2>
+        <p>Ingrese la siguiente informacion</p>
+        <form>
+            Nombre <input type="text" class="form-control" required><br>
+            Password <input type="password" class="form-control">
+            <div class="col-xs-4">
+                <br>
+            fecha <input type="date" class="form-control">
+            </div>
+            <div class="col-xs-3">
+                <br>
+            edad <input type="number" class="form-control">
+
+            </div>
+            <div class="col-xs-3">
+                <br>
+            correo <input type="text" class="form-control" placeholder="email">
+
+            </div>
+            <div class="form-group">
+               <br>
+                <label for="sel1">Seleccione Documento</label>
+                <select name="" id="">
+                    <option value="">DNI</option>
+                    <option value="">PASAPORTE</option>
+                    <option value="">PARTIDA</option>
+                </select>
+            </div>
+            <br>
+            <label for="">PROGRAMAS QUE DESEA INSCRIVIRSE</label>
+            <div class="checkbox">
+                <label for=""><input type="checkbox">Java</label>
+            </div>
+            <div class="checkbox">
+                <label for=""><input type="checkbox">PHP</label>
+            </div>
+            <div class="checkbox">
+                <label for=""><input type="checkbox">HTML</label>
+
+            </div>
+            <label for="">Seleccione Turno</label>
+            <div class="checkbox">
+                <label for=""><input type="checkbox">Diurno</label>
+                <label for=""><input type="checkbox">Nocturno</label>
+            </div>
+            <input type="button" class="btn btn-warning" value="Registrar">
+            <input type="reset" class="btn btn-warning">
+           
+        </form>
+
+
+
+
+
+    </div>
+</body>
+
+</html>

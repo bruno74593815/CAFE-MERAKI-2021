@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATOS</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        body{
+        background: #D3CCE3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="slideshow">
+            <img id="image" src="../img/1.jpg" sizes="10" height="400" width="900">
+            </div>
+            <div>
+            <button id="prev">&LeftArrow;</button>
+            <button id="next">&RightArrow;</button>
+            </div>
+            <script type="text/javascript" src="../js/codigo.js"></script>
+        </header>
+    </div>
+    <form>
+        <div class="jumbotron text-center">
+            <marquee>SEAN TODOS USTEDES BIENVENIDOS AL.....</marquee>
+            <h1>CENTRO DE AYUDA ONLINE DE CAFE MERAKI</h1>
+            <h2>UBICACIÓN</h2>
+            <ul class="nav navbar-nav">
+
+                <li class="active"><a href="../paginas/portal.html">Inicio</a></li>
+                <li class="active"><a href="https://www.facebook.com/">Facebook</a></li>
+                <li class="active"><a href="https://www.youtube.com/">Youtube</a></li>
+                <li class="active"><a href="https://mail.google.com/">Gmail</a></li>
+            </ul>
+
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Cambio de contraseña</h3>
+                    <img src="../img/clave.jpg" sizes="5" height="140" width="250"><br>
+                    <br>
+                    <p>Por motivos</p>
+                    <p>de olvido</p>
+                    <p>de cambio puesto</p>
+                    <a href="datos.html">Ir al enlace</a>
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>Nuestra ubicación</h3>
+                    <img src="../img/ubicacion.jpg" sizes="5" height="140" width="250"><br>
+                    <br>
+                    <p>Para poder</p>
+                    <p>ver el local </p>
+                    <p>ver el caso de envio del delivery </p>
+                    <a href="completar.html">Ir a enlace</a>
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>Sugerencias de pedidos</h3>
+                    <img src="../img/sugerencia.jpg" sizes="5" height="140" width="250"><br>
+                    <br>
+                    <p>Ayuda para</p>
+                    <p>ver platos recomendados</p>
+                    <p>ver postres de la carta</p>
+                    <a href="seleccionar.html">Ir al enlace</a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </form>
+    <hr>
+    <hr>
+    <div class="container">
+        <h2>DATOS DEL USUARIO</h2>
+        <label for="">Ingrese la siguiente información</label>
+        <br><br>
+        <form>
+            Nombre<input type="text" class="form-control" required><br>
+            Número de Celular <input type="number" class="form-control">
+            <br>
+            <input type="button" class="btn btn-warning" value="Enviar">
+            <br>
+            <br>
+            <hr><hr>
+            <label for="">VISTA DEL LOCAL CON GOOGLE MAPS</label>
+            
+            
+            <div class="checkbox">
+                <label for=""><input type="checkbox">ver de forma global</label>
+
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7834.885372348849!2d-74.8697819777037!3d-10.929894425754783!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32cf3021bcc32fa5!2sMERAKI%3A%20Cremoladas%2C%20Cafes%2C%20Jugos%20y%20mas...!5e0!3m2!1ses!2spe!4v1638130775100!5m2!1ses!2spe" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <hr><hr>
+            <label for="">Califique esta Ayuda</label>
+            <div class="checkbox">
+                <label for=""><input type="checkbox">1</label>
+                <label for=""><input type="checkbox">2</label>
+                <label for=""><input type="checkbox">3</label>
+                <label for=""><input type="checkbox">4</label>
+                <label for=""><input type="checkbox">5</label>
+            </div>
+            <br>
+            <input type="button" class="btn btn-warning" value="Enviar">
+            <br>
+            <br>
+
+        </form>
+
+
+
+
+
+    </div>
+    <br><br>
+    <footer>
+        <p> &copy Derechos Reservados lima-Perú-2021</p>
+        <img src="../img/twitter.png" alt="">
+        <img src="../img/youtube.png" alt="">
+    </footer>
+</body>
+
+</html>
